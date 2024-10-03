@@ -18,3 +18,5 @@ data "aws-ami" "name" {
   }
 
 }
+
+data "aws_availability_zones" "azs" {}
